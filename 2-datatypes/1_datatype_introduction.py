@@ -28,8 +28,6 @@ memoryview
 
 Dictionary Data Type
 
-Boolean Data Type
-
 None Data Type
 """
 
