@@ -30,4 +30,7 @@ Binary String to Integer
 The string should be made up of 1 and 0 only, and the base should be 2.
 """
 
+binary = int("110011",2)
+print(binary)#56
+
 

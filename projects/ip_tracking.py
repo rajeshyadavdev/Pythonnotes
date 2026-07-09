@@ -4,7 +4,8 @@ def get_ip_info(ip):
     url = f"https://ipinfo.io/{ip}/json"
     
     try:
-        response = requests.get(url, timeout=10)
+        response = requests.get(
+          url, timeout=10)
         data = response.json()
         
         print("\n" + "="*30)
